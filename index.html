@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="eightypercent gray">
+    <header id="header" class="eightypercent gray">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -20,20 +20,21 @@
                 <li><a href="#accounts">Accounts</a></li>
                 <li><a href="#contactMe">Contact me</a></li>
             </ul>
+
         </nav>
     </header>
 
     <main>
         <section id="aboutMe" class="eightypercent">
-            <div>
-                <h1>About me</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, eum maxime, suscipit aspernatur laudantium porro, deleniti ipsum possimus deserunt quas illo doloribus dolorum explicabo laborum esse fugiat recusandae tenetur harum?</p>
+            <div class="wrapper">
+                <div>
+                    <h1>About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, eum maxime, suscipit aspernatur laudantium porro, deleniti ipsum possimus deserunt quas illo doloribus dolorum explicabo laborum esse fugiat recusandae tenetur harum?</p>
+                </div>
+                <div>
+                    <img src="img/sarah-sw-k.png" alt="Portrait of Sarah Buehler" width="200px">
+                </div>
             </div>
-            <div>
-                <img src="img/sarah-sw-k.png" alt="Portrait of Sarah Buehler" width="200px">
-            </div>
-
-
         </section>
 
         <section id="projects" class="eightypercent gray">
@@ -53,13 +54,14 @@
         </section>
 
         <section id="skills" class="eightypercent">
-            <div>
+            <div class="first">
                 <h1>Skills</h1>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, nihil tempora nam cumque vitae assumenda deserunt, sit, sequi saepe obcaecati quos necessitatibus. Nostrum expedita eum cum ratione. Enim, eaque iusto?
                 </p>
             </div>
             <div class="wrapper">
+
                 <div class="container">
                     <img src="img/128/html-5.png" alt="HTML5 logo">
                     <div class="rating">
@@ -102,9 +104,12 @@
                     </div>
                 </div>
         </section>
+
+
         <section id="accounts" class="gray eightypercent">
-            <div>
+            <div class="first">
                 <h1>Accounts</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta rerum culpa iusto sed quas ad similique, natus neque nisi ex quibusdam ipsum esse quae quia laboriosam perspiciatis explicabo labore fugit?</p>
             </div>
             <div class="wrapper">
                 <div class="accountsImg">
@@ -113,19 +118,27 @@
                 <div class="accountsImg">
                     <a href="https://github.com/SarahBuehler"><img src="img/128/github-logo.png" alt="GitHub logo and link to profile"></a>
                 </div>
+            </div>
+        </section>
+
+        <section id="contactMe" class="eightypercent">
+            <div class="first">
+                <h1>Contact me</h1>
+                <p>Feel free to contact me</p>
+            </div>
+            <div class="wrapper">
+                <div class="accountsImg">
+                    <a href="mailto:sarah.buehler@gmx.com"><img src="img/128/mail.png" alt="E-Mail logo and link to send me an email"></a>
+                </div>
                 <div class="accountsImg">
                     <a href="https://www.linkedin.com/in/sarah-b%C3%BChler-1b1345195/"><img src="img/128/linkedin-logo.png" alt="Linkedin logo and link to profile"></a>
                 </div>
             </div>
         </section>
-
-        <section id="contactMe" class="eightypercent">
-            <h1>Contact me</h1>
-        </section>
     </main>
 
-    <footer class="gray eightypercent">
-        <p>&#169; by Sarah Bühler</p>
+    <footer id="footer" class="gray eightypercent">
+        <p>&#169; by Sarah Bühler, 2022</p>
     </footer>
 
 </body>

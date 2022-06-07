@@ -6,7 +6,7 @@
 }
 
 .gray {
-    background-color: #D3D3D3;
+    background-color: rgba(211, 211, 211, 0.4);
 }
 
 .eightypercent {
@@ -15,11 +15,44 @@
     padding: 2rem 2rem;
 }
 
+#aboutMe,
+#projects,
+#skills,
+#accounts,
+#contactMe {
+    height: 18rem;
+    border-radius: 1rem;
+}
+
+#header {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+#footer {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.first {
+    width: 15rem;
+    float: left;
+}
+
 
 /* header */
 
+header {
+    text-align: right;
+}
+
 
 /* nav */
+
+ul a {
+    text-decoration: none;
+    margin: 0 15px;
+}
 
 
 /* main */
