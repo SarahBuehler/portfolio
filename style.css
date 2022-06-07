@@ -41,6 +41,9 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.rating {
     align-content: center;
 }
 
@@ -52,8 +55,20 @@ main {
 
 /* accounts */
 
+.accountsImg img {
+    width: 5rem;
+}
+
+.accountsImg a:hover img {
+    transform: scale(1.5);
+}
+
 
 /* contact */
 
 
 /* footer */
+
+footer p {
+    text-align: center;
+}
